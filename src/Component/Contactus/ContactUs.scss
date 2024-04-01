@@ -1,0 +1,82 @@
+.Contactus{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+> .left{
+
+   > h1{
+    color: #232323;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+
+   }
+ > p {
+    margin: 33px 0 0 43px;
+    color: #232323;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+ }
+ > main 
+ {
+display: flex;
+align-items: center;
+
+
+ }
+
+
+}
+
+
+
+
+
+
+
+
+> .right{
+
+
+> main {
+    display: flex;
+}
+> section {
+    display: flex;
+
+ > label {
+    color: #8b8b8b;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+ }
+ > input{
+ 
+    border: none;
+    
+ }
+
+
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+}

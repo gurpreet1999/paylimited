@@ -1,0 +1,99 @@
+// Default variables
+$font-family: "Roboto", sans-serif;
+$primaryColor: #000; // Default primary color
+$bgColor: #fff; // Default background color
+$secondaryColor: #ccc; // Default secondary color
+$fontSize: 16px;
+$primaryTextColor: #000; // Default primary text color
+$secondaryTextColor: #666; // Default secondary text color
+
+$padding:16px;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+// Mixin for Button
+@mixin styledText($fontSize:3px,$fontweight:600,$line-height:23px,$color:black) {
+  letter-spacing:2px;
+  font-weight: $fontweight;
+  font-size: $fontSize;
+  color:$color;
+  font-family: Montserrat;
+  line-height:$line-height;
+   
+}
+@mixin flexBox(
+  $direction: row,
+  $alignItems: center,
+  $justifyContent:center,
+  $spacing: 1rem
+) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $alignItems;
+  justify-content: $justifyContent;
+  gap: $spacing;
+}
+
+@mixin container($w:100%, $h: 100vh, $p:2px,) {
+  width:$w;
+  height: $h;
+  padding:calc($p*1) calc($p*2);
+}
+
+@mixin grid($col: 1fr, $gap: 1rem, $row: unset) {
+  display: grid;
+  grid-template-columns:repeat(2,minmax(0,$col));
+  grid-template-rows: $row;
+  gap: $gap;
+}
+
+@mixin inputStyle($w: 100%, $p: 1rem, $bgColor: inherit, $border: none) {
+  padding: $p;
+  border: $border;
+  background-color: $bgColor;
+  width: $w;
+  outline: none;
+
+}
+
+@mixin myButton($fontSize:16px,$fontWeight:400,$radius:50px,$p:2px, $bg:#ffbf00, $color:black) {
+ 
+  padding: calc($p * 1) calc($p * 3);
+  background-color: $bgColor;
+  border: 1px solid $bgColor;
+  color: $color;
+
+  transition: all 0.3s;
+  border-radius: $radius;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  &:hover {
+    background-color: $color;
+    color: $bgColor;
+  }
+
+  &:disabled {
+    opacity: 0.2;
+    cursor: not-allowed;
+  }
+}
+
+@mixin hidescrollbar {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+
+
+
+@mixin Figure($w,$h){
+  width: $w;
+  height: $h;
+}

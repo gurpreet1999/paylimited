@@ -1,0 +1,188 @@
+.IndustryScheme{
+
+
+    .imageBox{
+
+  background-image: url("../../assests/images/CIS1.png");
+
+  > h1{
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 73px;
+    text-align: left;
+  }
+
+    }
+
+
+
+
+    > .box1{
+
+> .left{
+> h1{
+    color: #000000;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36.57px;
+}
+> p{
+    color: #8b8b8b;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+}
+}
+> .right{
+    width: 356px;
+    height: 214px;
+}
+
+    }
+
+
+
+> .box2{
+ 
+    > h1{
+        color: #8b8b8b;
+        font-family: Montserrat, var(--default-font-family);
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    > p{
+        color: #8b8b8b;
+        font-family: Roboto, var(--default-font-family);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.75px;
+    }
+  > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+>ul{
+    >li{
+        color: #8b8b8b;
+        font-family: Roboto, var(--default-font-family);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.75px;
+        text-align: left;
+    }
+}
+
+  }
+
+}
+
+
+> .box3 {
+
+
+> .left{
+>h1{
+    height: 45px;
+   
+    background: #d9d9d9;
+    color: #000000;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+}
+>p{
+    color: #8b8b8b;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+}
+
+>ul{
+
+}
+>h2{
+    height: 41px;
+    background: #d9d9d9;
+}
+> h3{
+    height: 41px;
+    background: #d9d9d9;
+    color: #000000;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 17.311px;
+}
+> section{
+    display: flex;
+
+    >h1{
+
+    }
+    > button {
+   width: 88px;
+  padding: 10px 10px 10px 10px;
+  cursor: pointer;
+  background: #ffbf00;
+  border: none;
+  z-index: 51;
+  border-radius: 8px;  
+    }
+}
+}
+
+> .right{
+> p{
+
+}
+}
+
+}
+
+> .box4{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+> .left{
+> h1{
+
+}
+> p{
+
+}
+> div{
+display: flex;
+gap: 2px;
+align-items: center;
+justify-content: center;
+
+>p{
+    color: #000000;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+}
+}
+
+}
+
+> .right{
+    width: 423.655px;
+    height: 174px;
+}
+
+}
+
+
+}

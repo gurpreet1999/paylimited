@@ -1,0 +1,250 @@
+.agency{
+
+
+
+
+> .imageBox{
+
+background-image: url("../../assests/images/agency1.png");
+
+> h1{
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 19.922px;
+}
+
+> h2{
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 90px; 
+}
+> p{
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;  
+}
+
+> section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    > button {
+        width: 133px;
+        height: 55px;
+        padding: 10px 10px 10px 10px;
+        cursor: pointer;
+        background: #ffbf00;
+        border: none;
+        z-index: 27;
+        border-radius: 50px;
+    }
+}
+
+
+}
+
+
+
+
+> .box1{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+> .aboutcompany{
+
+> h1{
+    color: #232323;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 19.922px;
+}
+> h2{
+    color: #ffbf00;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+
+}
+
+>p {
+    color: #434a56;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+}
+
+
+
+}
+
+> .ceo{
+
+     > p{
+        color: #000000;
+        font-family: Roboto, var(--default-font-family);
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 18.75px;
+     }
+
+     > div{
+        display: flex;
+        flex-direction: column;
+>h1{
+
+    color: #000000;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px; 
+}
+> p{
+
+}
+
+     }
+
+}
+
+}
+
+> .box2{
+   
+    
+
+    > h1{
+        color: #000000;
+        font-family: Poppins, var(--default-font-family);
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 54px;
+    }
+
+    >p {
+        color: #000000;
+        font-family: Roboto, var(--default-font-family);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.75px;
+    }
+
+
+    >   main{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+        > .card{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  > figure{
+    width: 80px;
+    height: 80px;
+  }
+
+> div{
+    display: flex;
+    flex-direction: column;
+    > h1{
+        color: #000000;
+        font-family: Roboto, var(--default-font-family);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21px;
+    }
+    > p{
+        color: #000000;
+        font-family: Roboto, var(--default-font-family);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.75px;
+    }
+}
+
+        }
+
+    }
+ 
+
+
+
+
+
+
+}
+
+> .imageBox2{
+
+background-image: url();
+
+> section {
+    display: flex;
+    align-items: center;
+
+  > div{
+    display: flex;
+    flex-direction: column;
+
+    > h1{
+        color: #ffffff;
+        font-family: Poppins, var(--default-font-family);
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 54px;
+    }
+    > p {
+        font-family: Roboto, var(--default-font-family);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.75px;
+    }
+  }
+
+  > button {
+    width: 258px;
+  height: 49px;
+ 
+  padding: 10px 10px 10px 10px;
+  cursor: pointer;
+  background: #ffbf00;
+  border: none;
+
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.75px;
+  color: #000000;
+  }
+
+}
+
+
+
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+

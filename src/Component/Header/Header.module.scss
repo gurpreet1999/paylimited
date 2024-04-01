@@ -1,0 +1,209 @@
+.rectangle {
+    position: relative;
+    width: 1440px;
+    height: 180px;
+    margin: 0 0 0 0;
+    background: #232323;
+    z-index: 1;
+  }
+  .st-pay-final {
+    position: absolute;
+    width: 81px;
+    height: 81px;
+    top: 50px;
+    left: 65px;
+    background: url(../assets/images/c9d8806a-4714-4b93-90a4-0a01758d5e10.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 18;
+  }
+  .call-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 5px;
+    position: absolute;
+    width: 164px;
+    height: 53px;
+    top: 64px;
+    left: 1235px;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    background: #ffbf00;
+    border: none;
+    z-index: 14;
+    border-radius: 60px;
+  }
+  .mdi-call {
+    flex-shrink: 0;
+    position: relative;
+    width: 18px;
+    height: 18px;
+    z-index: 15;
+    overflow: hidden;
+  }
+  .vector {
+    position: relative;
+    width: 13.5px;
+    height: 13.5px;
+    margin: 2.25px 0 0 2.25px;
+    background: url(../assets/images/ceee4b6d-e188-4d04-917a-28b0e143b748.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 16;
+  }
+  .phone-number {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 19px;
+    color: #232323;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18.75px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 17;
+  }
+  .nav-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 143px;
+    height: 39px;
+    top: 71px;
+    left: 971px;
+    padding: 10px 10px 10px 10px;
+    z-index: 10;
+  }
+  .start-contracting {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 19px;
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 11;
+  }
+  .nav-btn-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 82px;
+    height: 39px;
+    top: 71px;
+    left: 880px;
+    padding: 10px 10px 10px 10px;
+    z-index: 8;
+  }
+  .services {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 19px;
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 9;
+  }
+  .nav-btn-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 77px;
+    height: 39px;
+    top: 71px;
+    left: 1123px;
+    padding: 10px 10px 10px 10px;
+    z-index: 12;
+  }
+  .contact {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 19px;
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 13;
+  }
+  .nav-btn-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 63px;
+    height: 39px;
+    top: 71px;
+    left: 733px;
+    padding: 10px 10px 10px 10px;
+    z-index: 4;
+  }
+  .home-4 {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 19px;
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 5;
+  }
+  .nav-btn-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 63px;
+    height: 39px;
+    top: 71px;
+    left: 807px;
+    padding: 10px 10px 10px 10px;
+    z-index: 6;
+  }
+  .about {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 19px;
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 7;
+  }

@@ -1,0 +1,42 @@
+.companyService{
+
+> h1{
+    color: #000000;
+    font-family: Fira Sans, var(--default-font-family);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+}
+
+> p{
+    color: #000000;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.438px;
+}
+
+> .grid{
+display: grid;
+grid-template-columns: repeat(3,minmax(0,1fr));
+
+> div{
+    display: flex;
+    align-items: center;
+
+> h1{
+    color: #000000;
+  font-family: Fira Sans, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+}
+
+
+}
+
+
+
+}
