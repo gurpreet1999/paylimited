@@ -1,5 +1,8 @@
 import React from 'react'
 import CIS2 from "../../assests/images/CIS2.png"
+import CIS3 from "../../assests/images/CIS3.png"
+
+import "./IndustryScheme.scss"
 
 
 const IndustryScheme = () => {
@@ -90,21 +93,24 @@ const IndustryScheme = () => {
 <div className='box4'>
 
 <div className='left'>
-<h1>GET IN TOUCH</h1>
+
 <p>Feel free to get in touch & I'll get back to you.</p>
 
 
+<section>
 
 <h1>GENERAL INFORMATION</h1>
 
 <div ><span></span><p>020 8609 8488</p></div>
 <div ><span></span><p>hello@1stpayltd.co.uk</p></div>
 <div ><span></span><p>167-169 Great Portland Street 5th Floor London W1W 5PF</p></div>
+</section>
+
 </div>
 
 
 <div className='right'>
-  <img/>
+  <img src={CIS3}/>
 </div>
 
 

@@ -2,6 +2,8 @@ import React from 'react'
 import CompanyServices from '../../Component/CompanyServices/CompanyServices'
 import IncomeTaxCalculator from '../../Component/IncomeTaxCalculator/IncomeTaxCalculator'
 
+import "./ContractorGuide.scss"
+
 const ContractorGuide = () => {
   return (
     <div className='ContractorGuide'  >
@@ -9,11 +11,12 @@ const ContractorGuide = () => {
 
 <div className='imageBox'>
 
+<section>
 <h1>A Guide to Contracting</h1>
 <h2>Umbrella companies simplify contracting for hassle-free work.</h2>
 <p>Contractors work under two main payroll structures – umbrella companies and limited companies. Both have their benefits and drawbacks, but a contractor’s individual circumstances will usually mean that one offers more advantages over the other. </p>
 <button>JOIN US NOW</button>
-
+</section>
 
 
 </div>
@@ -54,14 +57,19 @@ Umbrella companies handle taxes for you but may not save as much as having your 
 <div className='box2'>
 
 <h1>Umbrella Company vs. Limited Company: Pros and Cons Summary</h1>
+<div className='difference'>
+<h1>LIMITED</h1>
+<h1>UMBRELLA</h1>
+</div>
+
 <div className='flex'>
 <div className='topic'>Tax Efficiency</div>
 <div className='limited'>
-    <h1>LIMITED</h1>
+   
     <p> Business owners can optimize tax efficiency through strategies like salary, dividends, and expense claims. They have more control over tax planning and can potentially reduce their overall tax liability.</p>
 </div>
 <div className='umbrella'>
-    <h1>UMBRELLA</h1>
+
     <p> Contractors' income is subject to PAYE (Pay As You Earn) tax, with fewer opportunities for tax planning. Expenses are typically reimbursed rather than offset against taxable income..</p>
 </div>
 
@@ -136,7 +144,7 @@ Risk of being blanketed. If caught, most tax benefits of being limited are lost.
 
 
 <div className='box3'>
-
+<main>
 <h1>Register your interest now receive a free consultation</h1>
 <p>Click here to Register or you can contact us</p>
 
@@ -144,33 +152,42 @@ Risk of being blanketed. If caught, most tax benefits of being limited are lost.
 <button>020 8609 8488</button>
 <button>REGISTER INTEREST</button>
 </section>
-
+</main>
 </div>
 
 <div className='box4'>
+    <section>
 
-    <p>Many first-time contractors want to know how much money they can take home when choosing a payroll service. Use our take home pay calculator to see how much money you’ll have at the end of the week or month if you work for a limited company rather than an umbrella company.
+    <p>Many first-time contractors want to know how much money they can take home when choosing a payroll service. Use our take home pay calculator to see how much money you’ll have at the end of the week or month if you work for a limited company rather than an umbrella company.</p>
 
-We are proud of the fact that we have successfully assisted over a thousand clients to far, so you can be certain that you are in good hands as our priorities have always been customer service and compliance. When you speak with our staff, you will receive experienced and personalized guidance to help you get off on the right foot with contracting.
+<p>We are proud of the fact that we have successfully assisted over a thousand clients to far, so you can be certain that you are in good hands as our priorities have always been customer service and compliance. When you speak with our staff, you will receive experienced and personalized guidance to help you get off on the right foot with contracting.
+</p>
+<p>Our services for first-time contractors include:</p>
+<ul>
 
-Our services for first-time contractors include:
 
-Free consultation to review your situation and requirements.
-Outline the most suitable payroll option for you
-Explaining the basics of IR35 legislation and how it affects contractors
-Full administration support
-Unlimited tax advice
-Dedicated team on hand to answer your queries
-No minimum terms of service
-24/7 access to a secure, mobile-responsive portal
+<li>Free consultation to review your situation and requirements.</li>
 
-Try our take home pay calculator to estimate how much income you can take home at the end of the week or month via a limited company versus an umbrella company.</p>
+<li>Outline the most suitable payroll option for yo</li>
+<li>Explaining the basics of IR35 legislation and how it affects contractors</li>
+
+<li>Full administration support</li>
+<li>Unlimited tax advice</li>
+<li>Dedicated team on hand to answer your queries</li>
+<li>No minimum terms of service</li>
+<li>24/7 access to a secure, mobile-responsive portal</li>
+
+
+</ul>
+<p>Try our take home pay calculator to estimate how much income you can take home at the end of the week or month via a limited company versus an umbrella company.</p>
+</section>
 </div>
 
 
 
+<div className='box5'><IncomeTaxCalculator/></div>
 
-<IncomeTaxCalculator/>
+
 <CompanyServices/>
 
     </div>

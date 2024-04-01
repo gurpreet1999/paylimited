@@ -1,7 +1,7 @@
 import React from 'react'
 import ContactUs from '../../Component/Contactus/ContactUs'
 import CompanyServices from '../../Component/CompanyServices/CompanyServices'
-
+import "./Agency.scss"
 import agency2 from "../../assests/images/agency2.png"
 
 const Agency = () => {
@@ -12,6 +12,7 @@ const Agency = () => {
  <div className='imageBox'>
 
 
+<main>
 <h1>Helping Brand Grows</h1>
 <h2>   Proficient in Consulting & Business Guidance!</h2>
 <p>  We provide you with the peace of mind to grow your agency with a
@@ -21,7 +22,7 @@ const Agency = () => {
     <button>SERVICES</button>
     <button>SERVICES</button>
 </section>
-
+</main>
 
  </div>
 

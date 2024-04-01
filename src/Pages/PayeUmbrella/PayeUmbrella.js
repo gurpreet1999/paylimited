@@ -1,5 +1,7 @@
 import React from 'react'
 import IncomeTaxCalculator from '../../Component/IncomeTaxCalculator/IncomeTaxCalculator'
+import "./PayeUmbrella.scss"
+import payeumbrella2 from "../../assests/images/payeumbrella2.png"
 
 
 const PayeUmbrella = () => {
@@ -8,15 +10,15 @@ const PayeUmbrella = () => {
 
 
 <div className='imageBox'>
-
+<section>
 <h1>FOR CONTRACTOR</h1>
 <h2>PAYE UMBRELLA</h2>
-
+</section>
 </div>
 
 
 <div className='box1'>
-<div className='left'><img></img></div>
+<figure><img src={payeumbrella2}></img></figure>
 <div className='right'>
 
 <h1>UMBRELLA SOLUTIONS</h1>
@@ -39,8 +41,12 @@ const PayeUmbrella = () => {
 </div>
 
 
-<div className='box'>
+
+
+</div>
+<div className='box2'>
 <h1>  How Does an Umbrella Company Work?</h1>
+<section className='grid'>
 <div className='card'>
 <div className='left'><img></img></div>
 <div className='right'><h1>Contract Signing with Recruitment Agency</h1>
@@ -71,13 +77,13 @@ const PayeUmbrella = () => {
 <p>After receiving payment from the agency, the umbrella company processes your payroll. They deduct various expenses such as employment taxes, their fee, personal taxes, and potentially pension contributions. Then, they pay you a salary.</p></div>
 
 </div>
-
+</section>
 
 </div>
 
 
 
-<div className='box'>
+<div className='box3'>
 
 
 <div className='left'><IncomeTaxCalculator/></div>
@@ -87,7 +93,7 @@ const PayeUmbrella = () => {
 
 
 
-<div className='box'>
+<div className='box4'>
 
 <div className='upper'>
 
@@ -131,9 +137,6 @@ const PayeUmbrella = () => {
 
 
 </div>
-
-</div>
-
 
     </div>
   )

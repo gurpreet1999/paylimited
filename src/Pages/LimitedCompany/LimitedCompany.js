@@ -3,14 +3,19 @@ import React from 'react'
 import limitedcompany2 from "../../assests/images/limitedcompany2.png"
 import PayrollSolution from '../../Component/PayrollSolution/PayrollSolution'
 
+import "./LimitedCompany.scss"
+import WhyChooseUs from '../../Component/WhyChooseUs/WhyChooseUs'
 
 const LimitedCompany = () => {
   return (
     <div className='LimitedCompany' >
 
   <div className='imageBox'>
-<p>Your job your decisions</p>
-<h1>Limited Company</h1>
+    <section>
+    <p>Your job your decisions</p>
+    <h1>Limited Company</h1>
+    </section>
+
 
   </div>
 
@@ -34,7 +39,7 @@ const LimitedCompany = () => {
 
 </div>
 
-<PayrollSolution/>
+<WhyChooseUs/>
 
 <div className='box2'>
 
@@ -62,7 +67,23 @@ const LimitedCompany = () => {
 </ul>
 </div>
 <div className='right'>
-
+<h1>our service</h1>
+<div className='card'>
+  <h1>informative</h1>
+  <p>100%</p>
+</div>
+<div className='card'>
+  <h1>compliance</h1>
+  <p>100%</p>
+</div>
+<div className='card'>
+  <h1>Efficiency</h1>
+  <p>100%</p>
+</div>
+<div className='card'>
+  <h1>customer support</h1>
+  <p>100%</p>
+</div>
 
 </div>
 
@@ -70,6 +91,10 @@ const LimitedCompany = () => {
 
 
 <div className='box3'>
+
+<h1>Contact</h1>
+<h2>Get in Touch</h2>
+
   <main>
 
 

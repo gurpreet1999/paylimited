@@ -1,6 +1,7 @@
 import React from 'react'
 import PayrollSolution from '../../Component/PayrollSolution/PayrollSolution'
 import about2 from "../../assests/images/about2.png"
+import "./AboutUs.scss"
 
 const AboutUs = () => {
   return (
@@ -8,8 +9,10 @@ const AboutUs = () => {
 
 <div className='imageBox'>
 
+<main>
 <h1>ABOUT US</h1>
 <h2>  Stop Payroll Headaches, Start Growing Your Business</h2>
+</main>
 
     </div>
 
@@ -19,6 +22,7 @@ const AboutUs = () => {
 <div className='approach'>
 <h1>Our Approach</h1>
 
+<section className='cardContainer'>
 <div className='card'>
 
 <h1>STEP 1</h1>
@@ -44,7 +48,7 @@ const AboutUs = () => {
           agreement,</p>
 
 </div>
-
+</section>
 
 </div>
 
@@ -100,7 +104,35 @@ const AboutUs = () => {
 <button>DISCOVER YOUR OPTIONS</button>
 </div>
 
+       
+<main className='blackBox' >
+<div className='card-container'>
 
+<div className='card'>
+  <figure><img src={""} /></figure>
+  <section>
+    <h1>PAYE Umbrella</h1>
+    <p>Discover our services</p>
+  </section>
+</div>
+<div className='card'>
+  <figure><img src={""} /></figure>
+  <section>
+    <h1>Limited Company</h1>
+    <p></p>
+  </section>
+</div>
+<div className='card'>
+  <figure><img src={""}  /></figure>
+  <section>
+    <h1>Agency Management</h1>
+    <p></p>
+  </section>
+</div>
+
+
+</div>
+</main>
 
     </div>
   )

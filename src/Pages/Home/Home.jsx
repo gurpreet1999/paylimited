@@ -31,7 +31,7 @@ const Home = () => {
         </section>
         </div>
        
-<main>
+<main className='blackBox' >
 <div className='card-container'>
 
 <div className='card'>

@@ -1,6 +1,9 @@
 @import "../../variables";
 
-.imageContainer {
+.homePage{
+
+
+> .imageContainer {
   background: url("../../assests/images/home1.png")  no-repeat center;
   background-size: cover;
  
@@ -48,7 +51,7 @@
   
 }
 
- main{
+ > .blackBox{
   display: flex;
   align-items:center;
   justify-content:flex-end;
@@ -137,4 +140,6 @@
       @include myButton(null, null,null, 10px, #ffbf00);
     }
   }
+}
+
 }

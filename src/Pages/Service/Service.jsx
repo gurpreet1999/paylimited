@@ -1,5 +1,6 @@
 import React from 'react'
 import ContactUs from '../../Component/Contactus/ContactUs'
+import "./Service.scss"
 
 const Service = () => {
   return (

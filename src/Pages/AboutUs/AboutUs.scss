@@ -1,76 +1,119 @@
+@import "../../variables";
+
 .AboutUs{
 
 
 
    > .imageBox{
+    width: 100%;
+    height: 700px;
 
-  background-image: url("../../assests/images/about1.png");
-        > h1{
-            color: #ffffff;
-            font-family: Roboto, var(--default-font-family);
-            font-size: 20px;
-            font-weight: 400;
-            line-height: 23px;
-        }
-        > h2{
-            margin: 19px 0 0 126px;
-            color: #ffffff;
-            font-family: Montserrat, var(--default-font-family);
-            font-size: 60px;
-            font-weight: 700;
-            line-height: 73.14px;
-        }
+  background :url("../../assests/images/about1.png") no-repeat center ;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   > main{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    > h1{
+        color: #ffffff;
+        font-family: Roboto, var(--default-font-family);
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 23px;
+    }
+    > h2{
+       
+        color: #ffffff;
+        font-family: Montserrat, var(--default-font-family);
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 73.14px;
+    }
+   }
+        
         
  }
 
 
 
 > .approach{
+    padding: 20px 30px;
 
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 20px;
 
 > h1{
-    margin: 20.046px 0 0 146px;
+
     color: #ffbf00;
     font-family: Roboto, var(--default-font-family);
     font-size: 60px;
     font-weight: 700;
     line-height: 70px;
+    align-self: flex-start;
 
 }
+> .cardContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    > .card{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content: center;
+        gap:8px;
+        
+        
+        > h1{
+            color: #000000;
+            font-family: Roboto, var(--default-font-family);
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 23px;
+            position: relative;
+             
+           &::after{
+  
+            position: absolute;
+            content: "";
+            width: 100%;
+            top:28px;
+            left:0px;
+            border-bottom: 3px solid yellow;
+        
 
-> card{
-display: flex;
-flex-direction: column;
+            }
 
-
-> h1{
-    color: #000000;
-    font-family: Roboto, var(--default-font-family);
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 23px;
+        }
+        
+        > h2{
+            color: #ffbf00;
+            font-family: Roboto, var(--default-font-family);
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 23px;
+        }
+        
+        > p{
+            color: #8b8b8b;
+            font-family: Roboto, var(--default-font-family);
+            font-size: 16px;
+            font-weight: 400;
+        }
+        
+        
+        }
+        
 }
 
-> h2{
-    color: #ffbf00;
-    font-family: Roboto, var(--default-font-family);
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 23px;
-}
-
-> p{
-    color: #8b8b8b;
-    font-family: Roboto, var(--default-font-family);
-    font-size: 16px;
-    font-weight: 400;
-}
-
-
-}
 
 
 
@@ -79,7 +122,13 @@ flex-direction: column;
 
 
 > .box2 {
+    padding: 30px 40px;
     background: #232323;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
 
     > h1{
         color: #ffd558;
@@ -92,10 +141,14 @@ flex-direction: column;
     > main{
         display: flex;
         align-items: center;
+        gap:40px;
 
       > .card{
         display: flex;
-        align-items: center;
+        flex-direction:column;
+        align-items:flex-start;
+        justify-content: center;
+        gap: 15px;
      
          > h1{
             color: #ffd558;
@@ -127,6 +180,13 @@ flex-direction: column;
 
 > .box4{
 
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap:10px;
+
 
 > h1{
     color: #ffbf00;
@@ -143,7 +203,12 @@ flex-direction: column;
     line-height: 43.884px;
 }
 > figure{
-
+width: 100%;
+height:400px;
+> img{
+    width: 100%;
+    height: 100%;
+}
 }
 
 > p{
@@ -175,21 +240,58 @@ grid-template-columns: repeat(2,minmax(0,1fr));
 > button{
     width: 228px;
     height: 43px;
-    margin: 61px 0 0 158px;
+   
     padding: 10px 10px 10px 10px;
     cursor: pointer;
     background: #ffbf00;
     border: none;
- 
+ margin-top: 20px;
     border-radius: 50px;
     color: #000000;
     font-family: Roboto, var(--default-font-family);
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 700;
 
 }
 
 }
+
+
+
+> .blackBox{
+    display: flex;
+    align-items:center;
+    justify-content:flex-end;
+    .card-container {
+      @include flexBox;
+    
+      background-color: black;
+      padding: 50px 20px;
+      width: 70%;
+      border-radius: 10px;
+     
+      transform: translateY(-50px);
+    
+      > .card {
+        @include flexBox;
+        > figure {
+          @include Figure(50px, 50px);
+        }
+    
+        > section {
+          @include flexBox(column,flex-start,center,0);
+    
+          > h1 {
+            @include styledText(16px, 400, 23px, #ffbf00);
+          }
+          > p {
+            @include styledText(16px, 400, 23px, );
+          }
+        }
+      }
+    }
+    
+  }
 
 }
 

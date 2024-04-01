@@ -3,7 +3,15 @@
 
     .imageBox{
 
-  background-image: url("../../assests/images/CIS1.png");
+  background: url("../../assests/images/CIS1.png") no-repeat center;
+  width: 100%;
+  height: 700px;
+
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+
 
   > h1{
     color: #ffffff;
@@ -20,12 +28,21 @@
 
 
     > .box1{
-
+        padding: 30px 60px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
 > .left{
-> h1{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+
+    > h1{
     color: #000000;
     font-family: Montserrat, var(--default-font-family);
-    font-size: 30px;
+    font-size: 36px;
     font-weight: 700;
     line-height: 36.57px;
 }
@@ -38,8 +55,12 @@
 }
 }
 > .right{
-    width: 356px;
-    height: 214px;
+ width: 30%;
+    > img{
+        width: 356px;
+        height: 214px;
+    }
+    
 }
 
     }
@@ -47,6 +68,7 @@
 
 
 > .box2{
+    padding: 20px 60px;
  
     > h1{
         color: #8b8b8b;
@@ -64,9 +86,11 @@
         line-height: 18.75px;
     }
   > div{
+    margin-top: 20px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:flex-start;
+    gap: 60px;
 
 >ul{
     >li{
@@ -86,9 +110,24 @@
 
 > .box3 {
 
-
+ display: flex;
+ align-items:flex-start;
+ justify-content: center;
+ padding:20px 60px;
+ gap: 40px;
 > .left{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    padding: 10px;
 >h1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 45px;
    
     background: #d9d9d9;
@@ -112,8 +151,16 @@
 >h2{
     height: 41px;
     background: #d9d9d9;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 > h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     height: 41px;
     background: #d9d9d9;
     color: #000000;
@@ -124,6 +171,8 @@
 }
 > section{
     display: flex;
+    justify-content: space-between;
+    width: 100%;
 
     >h1{
 
@@ -141,6 +190,13 @@
 }
 
 > .right{
+    width: 50%;
+    padding: 10px 80px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: flex-start;
 > p{
 
 }
@@ -149,37 +205,56 @@
 }
 
 > .box4{
+    width: 100%;
+    padding: 20px 60px;
 
     display: flex;
     align-items: center;
     justify-content: center;
+ 
 > .left{
-> h1{
+    width: 60%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
 
-}
 > p{
 
 }
-> div{
-display: flex;
-gap: 2px;
-align-items: center;
-justify-content: center;
 
->p{
-    color: #000000;
-    font-family: Roboto, var(--default-font-family);
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 14px;
+> section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 8px;
+    > div{
+        display: flex;
+        gap: 2px;
+        align-items: center;
+        justify-content: center;
+        
+        >p{
+            color: #000000;
+            font-family: Roboto, var(--default-font-family);
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 14px;
+        }
+        }
 }
-}
+
 
 }
 
 > .right{
-    width: 423.655px;
-    height: 174px;
+    > img{
+        width: 423.655px;
+        height: 174px;
+    }
+   
 }
 
 }
